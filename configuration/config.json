@@ -1,0 +1,305 @@
+{
+	"masp":{
+		"common":{
+			"crossValidation":false,
+			"crossNum":5,
+			"dc":0.4,
+			"budget": 0.03,
+			"pretrainRounds":600,
+			"incrementRounds":100,
+			"enhancementThreshold":0.001,
+			"coldStartLabelsProportion":0.33,
+			"trainDataMatrix":[],
+			"testDataMatrix":[],
+			"trainLabelMatrix":[],
+			"testLabelMatrix":[],
+			"numInstances":[],
+			"numConditions":0,
+			"numLabels":0,
+			"learningRate":0.001,
+			"mobp":0.6,
+			"para_r": 1.0
+		},
+		"Art":{
+			"fileName":"../datasets/DataMat/Art.mat",
+			"outputFileName":"../results/Art.mat",
+			"fullConnectLayerNumNodes":[0, 512, 512, 512],
+			"parallelLayerNumNodes":[512, 512, 512, 2],
+			"activators":"ssrrrss",
+			"labelBatch":6,
+			"instanceBatch":300,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+		"default":{
+			"fileName":"../datasets/DataMat/Flags.mat",
+			"outputFileName":"../results/Flags.mat",
+			"fullConnectLayerNumNodes":[0, 64, 64],
+			"parallelLayerNumNodes":[64, 64, 2],
+			"activators":"ssrss",
+			"labelBatch":12,
+			"instanceBatch":300,
+			"instanceSelectionProportion":0.3,
+			"para_r": 1.0
+		},
+		"Birds":{
+			"fileName":"../datasets/DataMat/Birds.mat",
+			"outputFileName":"../results/Birds.mat",
+			"fullConnectLayerNumNodes":[0, 512, 512],
+			"parallelLayerNumNodes":[512, 128, 2],
+			"activators":"ssrss",
+			"labelBatch":3,
+			"instanceBatch":30,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.5
+		},
+
+
+		"CHD49":{
+			"fileName":"../datasets/DataMat/CHD49.mat",
+			"outputFileName":"../results/CHD49.mat",
+			"fullConnectLayerNumNodes":[0, 512],
+			"parallelLayerNumNodes":[512 , 2],
+			"activators":"ssrss",
+			"labelBatch":3,
+			"instanceBatch":30,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.3
+		},
+
+
+		"Business":{
+			"fileName":"../datasets/DataMat/Business.mat",
+			"outputFileName":"../results/Business.mat",
+			"fullConnectLayerNumNodes":[0, 64, 64],
+			"parallelLayerNumNodes":[64, 64, 2],
+			"activators":"ssrss",
+			"labelBatch":8,
+			"instanceBatch":200,
+			"instanceSelectionProportion":0.3,
+			"para_r": 1.0
+		},
+		"Cal500":{
+			"fileName":"../datasets/DataMat/Cal500.mat",
+			"outputFileName":"../results/Cal500.mat",
+			"fullConnectLayerNumNodes":[0, 64, 64, 64],
+			"parallelLayerNumNodes":[64, 64, 2],
+			"activators":"sssrss",
+			"labelBatch":40,
+			"instanceBatch":200,
+			"instanceSelectionProportion":0.3,
+			"para_r": 1.0
+		},
+		"Computer":{
+			"fileName":"../datasets/DataMat/Computer.mat",
+			"outputFileName":"../results/Computer.mat",
+			"fullConnectLayerNumNodes":[0, 256, 256],
+			"parallelLayerNumNodes":[256, 256, 2],
+			"activators":"ssrss",
+			"labelBatch":12,
+			"instanceBatch":600,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+		"Education":{
+			"fileName":"../datasets/DataMat/Education.mat",
+			"outputFileName":"../results/Education.mat",
+			"fullConnectLayerNumNodes":[0, 256, 512],
+			"parallelLayerNumNodes":[512, 256, 2],
+			"activators":"ssrss",
+			"labelBatch":12,
+			"instanceBatch":600,
+			"instanceSelectionProportion":0.6,
+			"para_r": 1.0
+		},
+		"Emotion":{
+			"fileName":"../datasets/DataMat/Emotion.mat",
+			"outputFileName":"../results/Emotion.mat",
+			"fullConnectLayerNumNodes":[0, 128, 128],
+			"parallelLayerNumNodes":[128, 64, 2],
+			"activators":"ssrss",
+			"labelBatch":4,
+			"instanceBatch":6,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.6
+		},
+		"Enron":{
+			"fileName":"../datasets/DataMat/Enron.mat",
+			"outputFileName":"../results/Enron.mat",
+			"fullConnectLayerNumNodes":[0, 64],
+			"parallelLayerNumNodes":[64, 2],
+			"activators":"ssrss",
+			"labelBatch":18,
+			"instanceBatch":200,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.05
+		},
+		"Entertainment":{
+			"fileName":"../datasets/DataMat/Entertainment.mat",
+			"outputFileName":"../results/Entertainment.mat",
+			"fullConnectLayerNumNodes":[0, 64, 64],
+			"parallelLayerNumNodes":[64, 64, 2],
+			"activators":"ssrss",
+			"labelBatch":8,
+			"instanceBatch":200,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+
+		"Foodtruck":{
+			"fileName":"../datasets/DataMat/Foodtruck.mat",
+			"outputFileName":"../results/Foodtruck.mat",
+			"fullConnectLayerNumNodes":[0, 64, 64],
+			"parallelLayerNumNodes":[64, 64, 2],
+			"activators":"ssrss",
+			"labelBatch":8,
+			"instanceBatch":200,
+			"instanceSelectionProportion":0.5,
+			"para_r": 2.0
+		},
+		"GpositiveGO":{
+			"fileName":"../datasets/DataMat/GpositiveGO.mat",
+			"outputFileName":"../results/GpositiveGO.mat",
+			"fullConnectLayerNumNodes":[0, 64],
+			"parallelLayerNumNodes":[64,2],
+			"activators":"ssrss",
+			"labelBatch":8,
+			"instanceBatch":200,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.5
+		},
+		"Flags":{
+			"fileName":"../datasets/DataMat/Flags.mat",
+			"outputFileName":"../results/Flags.mat",
+			"fullConnectLayerNumNodes":[ 0,64 ],
+			"parallelLayerNumNodes":[83, 2],
+			"activators":"ssrss",
+			"labelBatch":3,
+			"instanceBatch":3,
+			"instanceSelectionProportion":1,
+			"para_r": 2.0
+		},
+		"Genbase":{
+			"fileName":"../datasets/DataMat/Genbase.mat",
+			"outputFileName":"../results/Genbase.mat",
+			"fullConnectLayerNumNodes":[0,  64],
+			"parallelLayerNumNodes":[64, 2],
+			"activators":"ssrss",
+			"labelBatch":5,
+			"instanceBatch":50,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.2
+		},
+		"Health":{
+			"fileName":"../datasets/DataMat/Health.mat",
+			"outputFileName":"../results/Health.mat",
+			"fullConnectLayerNumNodes":[0, 500],
+			"parallelLayerNumNodes":[500, 256, 2],
+			"activators":"ssrss",
+			"labelBatch":10,
+			"instanceBatch":500,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+		"Image":{
+			"fileName":"../datasets/DataMat/Image.mat",
+			"outputFileName":"../results/Image.mat",
+			"fullConnectLayerNumNodes":[0, 500],
+			"parallelLayerNumNodes":[500, 2],
+			"activators":"ssrss",
+			"labelBatch":3,
+			"instanceBatch":5,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.05
+		},
+		"Recreation":{
+			"fileName":"../datasets/DataMat/Recreation.mat",
+			"outputFileName":"../results/Recreation.mat",
+			"fullConnectLayerNumNodes":[0, 256],
+			"parallelLayerNumNodes":[256, 2],
+			"activators":"ssrss",
+			"labelBatch":10,
+			"instanceBatch":500,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.5
+		},
+		"Reference":{
+			"fileName":"../datasets/DataMat/Reference.mat",
+			"outputFileName":"../results/Reference.mat",
+			"fullConnectLayerNumNodes":[0, 256, 256],
+			"parallelLayerNumNodes":[256, 256, 2],
+			"activators":"ssrss",
+			"labelBatch":10,
+			"instanceBatch":300,
+			"instanceSelectionProportion":0.3,
+			"para_r": 1.0
+		},
+		"Scene":{
+			"fileName":"../datasets/DataMat/Scene.mat",
+			"outputFileName":"../results/Scene.mat",
+			"fullConnectLayerNumNodes":[0, 64],
+			"parallelLayerNumNodes":[64, 2],
+			"activators":"ssrss",
+			"labelBatch":3,
+			"instanceBatch":20,
+			"instanceSelectionProportion":0.5,
+			"para_r": 0.5
+		},
+		"Science":{
+			"fileName":"../datasets/DataMat/Science.mat",
+			"outputFileName":"../results/Science.mat",
+			"outputFileName":"../results/Science.mat",
+			"fullConnectLayerNumNodes":[0, 256, 256],
+			"parallelLayerNumNodes":[256, 256, 2],
+			"activators":"ssrss",
+			"labelBatch":12,
+			"instanceBatch":300,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+		"Social":{
+			"fileName":"../datasets/DataMat/Social.mat",
+			"outputFileName":"../results/Social.mat",
+			"fullConnectLayerNumNodes":[0, 96, 96],
+			"parallelLayerNumNodes":[96, 96, 2],
+			"activators":"ssrss",
+			"labelBatch":12,
+			"instanceBatch":500,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+		"Society":{
+			"fileName":"../datasets/DataMat/Society.mat",
+			"outputFileName":"../results/Society.mat",
+			"fullConnectLayerNumNodes":[0, 512, 256],
+			"parallelLayerNumNodes":[256, 512, 2],
+			"activators":"ssrss",
+			"labelBatch":13,
+			"instanceBatch":500,
+			"instanceSelectionProportion":0.5,
+			"para_r": 1.0
+		},
+		"Yeast":{
+			"fileName":"../datasets/DataMat/Yeast.mat",
+			"outputFileName":"../results/Yeast.mat",
+			"fullConnectLayerNumNodes":[0, 512],
+			"parallelLayerNumNodes":[512, 2],
+			"activators":"sssss",
+			"labelBatch":6,
+			"instanceBatch":60,
+			"instanceSelectionProportion":1,
+			"para_r": 0.1
+		},
+		"Medical":{
+			"fileName":"../datasets/DataMat/Medical.mat",
+			"outputFileName":"../results/Medical.mat",
+			"fullConnectLayerNumNodes":[0, 512],
+			"parallelLayerNumNodes":[512,  2],
+			"activators":"ssrss",
+			"labelBatch":15,
+			"instanceBatch":80,
+			"instanceSelectionProportion":1,
+			"para_r": 1.0
+		}
+	}
+}
